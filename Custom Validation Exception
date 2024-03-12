@@ -7,7 +7,7 @@ class CustomValidationException extends Exception {
 public class CustomValidationExample {
     public static void main(String[] args) {
         try {
-            validateNumber(-5); // Example usage
+            validateNumber(-5); 
         } catch (CustomValidationException e) {
             System.out.println("Caught CustomValidationException: " + e.getMessage());
         }
@@ -17,6 +17,5 @@ public class CustomValidationExample {
         if (number < 0) {
             throw new CustomValidationException("Number cannot be negative");
         }
-        // Additional validation logic can be added here if needed
     }
 }
