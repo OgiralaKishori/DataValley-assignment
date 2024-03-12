@@ -1,8 +1,8 @@
 public class ReplaceCharacterAtIndex {
     public static void main(String[] args) {
         String originalString = "Hello World";
-        int index = 6; // index at which character needs to be replaced
-        char replacementChar = 'X'; // character to replace
+        int index = 6; 
+        char replacementChar = 'X'; 
 
         String modifiedString = replaceCharAtIndex(originalString, index, replacementChar);
         System.out.println("Modified String: " + modifiedString);
